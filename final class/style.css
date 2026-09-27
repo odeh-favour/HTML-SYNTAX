@@ -1,0 +1,41 @@
+body {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#scoreboard {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    background: #222;
+    padding: 10px;
+    border-bottom: 3px solid #ff3399;
+}
+
+#commentary {
+    font-style: italic;
+    color: #ff99ff;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+canvas {
+    background-color: #2e8b57; /* Football grass green */
+    border: 4px solid #fff;
+    box-shadow: 0 0 25px rgba(255, 51, 153, 0.5);
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+#controls-help {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
